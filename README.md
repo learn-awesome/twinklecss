@@ -10,13 +10,13 @@ Currently, this is using Tailwind CSS v1.6.2 and Tailwind UI v0.5.0
 
 ```
 <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-<link rel="stylesheet" href="https://unpkg.com/twinklecss@1.0.1/twinkle.min.css">
+<link rel="stylesheet" href="https://unpkg.com/twinklecss@1.0.1/dist/twinkle.min.css">
 ```
 
 # Build
 
-Run `npm install` and then `npm run build` to generate a local `twinkle.min.css` file.
+Run `npm install` and then `npm run build` to generate a local `twinkle.min.css` file in dist folder.
 
 # Customize
 
-If you want to extract your own component classes, add them in `myapp.css` before the `@tailwind utilities;` statement. And if you want to add/remove Tailwind plugins, customize the default theme or breakpoints or add/remove variants, modify `tailwind.config.js`.
+If you want to extract your own component classes, add them in `src/custom-components.css`. And if you want to add/remove Tailwind plugins, customize the default theme or breakpoints or add/remove variants, modify `tailwind.config.js`.
