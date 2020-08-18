@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "postcss myapp.css -o twinkle.min.css"
+    "build": "postcss src/app.css -o dist/twinkle.min.css"
   },
   "author": "Nilesh Trivedi",
   "license": "MIT",
