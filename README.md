@@ -4,7 +4,7 @@ This is a minified but unpurged build of Tailwind CSS + Tailwind UI with autopre
 
 Uncompressed, this turns out to be about 2.8 MB. But when served via a CDN that supports Brotli-compression (eg: unpkg.com or Cloudflare), this is less than 200KB in size. This is slightly heavy but it becomes much more easier to work on multiple sites that cannot use custom builds which requires NodeJS and NPM.
 
-Currently, this is using Tailwind CSS v1.6.2 and Tailwind UI v0.5.0
+Currently, this is using Tailwind CSS v1.8.13 and Tailwind UI v0.6.2
 
 # Usage
 
