@@ -1,24 +1,15 @@
 @tailwind base;
 @tailwind components;
+@tailwind utilities;
+
+@layer components {
 
 .btn {
     @apply relative inline-flex items-center px-4 py-2 border border-transparent text-sm leading-5 font-medium rounded-md;
 }
 
 .btn-primary {
-    @apply text-white bg-indigo-600;
-}
-
-.btn-primary:hover {
-    @apply bg-indigo-500;
-}
-
-.btn-primary:active {
-    @apply bg-indigo-700;
-}
-
-.btn-primary:focus {
-    @apply outline-none shadow-outline-indigo border-indigo-700;
+    @apply text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:ring-indigo-200 focus:border-indigo-700;
 }
 
 form.simple-form h1 {
@@ -38,23 +29,15 @@ form.simple-form label {
 }
 
 form.simple-form input[type=text], form.simple-form input[type=url], form.simple-form input[type=email] {
-    @apply w-full px-2 py-1 mb-4 text-gray-900 bg-gray-200 rounded;
+    @apply w-full px-2 py-1 mb-4 text-gray-900 bg-gray-200 rounded focus:ring focus:border-gray-500;
 }
 
 form.simple-form-inline input[type=text] {
-    @apply px-2 py-1 mb-4 text-gray-900 bg-gray-200 rounded;
-}
-
-form.simple-form input[type=text]:focus, form.simple-form input[type=url]:focus, form.simple-form input[type=email]:focus, form.simple-form-inline input[type=text]:focus {
-    @apply shadow-outline border-gray-500;
+    @apply px-2 py-1 mb-4 text-gray-900 bg-gray-200 rounded focus:ring focus:border-gray-500;
 }
 
 form.simple-form input[type=number] {
-    @apply w-full px-2 py-1 mb-4 text-gray-900 bg-gray-200 rounded;
-}
-
-form.simple-form input[type=number]:focus {
-    @apply shadow-outline border-gray-500;
+    @apply w-full px-2 py-1 mb-4 text-gray-900 bg-gray-200 rounded focus:ring focus:border-gray-500;
 }
 
 form.simple-form textarea {
@@ -138,4 +121,5 @@ main.pattern {
     @apply bg-gray-300;
 }
 
-@tailwind utilities;
+
+}

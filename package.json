@@ -1,7 +1,7 @@
 {
   "name": "twinklecss",
-  "version": "1.1.0",
-  "description": "A minified but unpurged build of Tailwind CSS + Tailwind UI with autoprefixer, sidebar breakpoints, Inter font, some extra variants and common components from learnawesome.org",
+  "version": "1.2.0",
+  "description": "A minified but unpurged build of Tailwind CSS 2.0 with autoprefixer, Inter font, some extra variants and common components from learnawesome.org",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,11 +10,17 @@
   "author": "Nilesh Trivedi",
   "license": "MIT",
   "devDependencies": {
-    "@tailwindcss/ui": "^0.6.2",
-    "autoprefixer": "^9.8.6",
     "cssnano": "^4.1.10",
     "postcss-cli": "^7.1.1",
-    "postcss-nested": "^4.2.3",
-    "tailwindcss": "^1.8.13"
+    "postcss-nested": "^4.2.3"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.0",
+    "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "@tailwindcss/typography": "^0.3.1",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
   }
 }

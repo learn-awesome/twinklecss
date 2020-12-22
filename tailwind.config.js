@@ -10,12 +10,11 @@ module.exports = {
     },
   },
   variants: {
-    textColor: ['responsive', 'hover', 'focus', 'group-hover'],
     display: ['responsive', 'group-hover','group-focus']
   },
   plugins: [
-    require('@tailwindcss/ui')({
-      layout: 'sidebar',
-    })
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/aspect-ratio'),
   ],
 }
