@@ -10,7 +10,6 @@ module.exports = {
     },
   },
   variants: {
-    display: ['responsive', 'group-hover','group-focus']
   },
   plugins: [
     require('@tailwindcss/forms'),

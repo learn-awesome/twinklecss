@@ -1,7 +1,7 @@
 {
   "name": "twinklecss",
-  "version": "1.2.0",
-  "description": "A minified but unpurged build of Tailwind CSS 2.0 with autoprefixer, Inter font, some extra variants and common components from learnawesome.org",
+  "version": "1.2.1",
+  "description": "A minified but unpurged build of Tailwind CSS 2.0.2 with autoprefixer, Inter font, and plugins like aspect-ratio, forms, typography",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
